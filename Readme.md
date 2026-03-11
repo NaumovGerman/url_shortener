@@ -144,7 +144,7 @@ POST /auth/login
 
 ---
 
-# Создание короткой ссылки
+## Создание короткой ссылки
 
 ```
 POST /links/shorten
@@ -173,7 +173,7 @@ POST /links/shorten
 
 ---
 
-# Редирект
+## Редирект
 
 ```
 GET /{short_code}
@@ -196,7 +196,7 @@ GET /AbC123
 
 ---
 
-# Статистика ссылки
+## Статистика ссылки
 
 ```
 GET /links/{short_code}/stats
@@ -215,7 +215,7 @@ GET /links/{short_code}/stats
 
 ---
 
-# Поиск ссылки
+## Поиск ссылки
 
 ```
 GET /links/search
@@ -247,7 +247,7 @@ GET /links/search
 
 ---
 
-# Обновление ссылки
+## Обновление ссылки
 
 ```
 PUT /links/{short_code}
@@ -273,13 +273,13 @@ PUT /links/{short_code}
 
 ---
 
-# Удаление ссылки
+## Удаление ссылки
 
 ```
 DELETE /links/{short_code}
 ```
 
-Требует авторизацию.
+- **Требует авторизацию**
 
 ### Response
 
